@@ -42,11 +42,14 @@ textarea {
   border-top: px solid white;
 }
 
-.hr {
+.hour {
   background-color: #ffffff;
   color: #1a2f31;
   border-top: 1px dashed #06aed5;
-  padding: 2%;
+  padding: 1%;
+  border-left: 1px solid #06aed5;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
   
 }
 
