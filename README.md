@@ -1,5 +1,7 @@
 # what-a-day-planner
 
+https://vbproglobyte.github.io/what-a-day-planner/
+
 Plan your day with this simple day planner!
 It's easy, input your tasks per hour and see how it is organized with the time-block function.
 
