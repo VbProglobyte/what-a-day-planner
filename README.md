@@ -8,5 +8,6 @@ It's easy, input your tasks per hour and see how it is organized with the time-b
 
 # credits 
 
-I'd like o give credit to Stackoverflow & W3Schools 
+I'd like o give credit to Stackoverflow & W3Schools!
+
 I'd also like to credit Bootstrap & jQuery for helping developers make this "look" so easy (even though it is NOT)
