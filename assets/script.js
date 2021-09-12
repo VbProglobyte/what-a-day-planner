@@ -15,25 +15,22 @@ $(document).ready(function () {
         time();
     // ****************************************************
     $(".saveBtn").on("click", function () { //connected to storage "getItem"
-        var textarea = $(this).siblings(".description").val(); //get the value of
         var time = $(this).parent().attr("id"); // in the hour id name 
+        var textarea = $(this).siblings(".description").val(); //get the value of
         localStorage.setItem(time, textarea); //KEY/VALUE - time/textarea
         //storage variables textarea & timeBlock
     })
-
-    //DATE & TIME
-    // currentTime = currentTime.startOf("hour"); DONE
-    var currentTime = moment();
-        $('#currentTime').text(currentTime.format("MMM Do, YYYY, h:mm a"));
+    function time() {  
     // console.log("workin?"); DONE
-    
+        var currentTime = moment().hour();  //FIXED!!!
+       
     // ---------------------------------------------------------------------
     // TIME LOOP = past, present, future
-    function time() {
+    
         //DONE
         //loop through time block to determine if it is past present future 
         $(".time-block").each(function () { //this pull from time-block class
-            var timeBlock = parseInt($(this).attr("id"));//.split("hour")[1]);
+            var timeBlock = parseInt($(this).attr("id"));
 
                 if (timeBlock < currentTime) {
                     $(this).toggleClass("past");
@@ -48,3 +45,7 @@ $(document).ready(function () {
     }
 
 });
+         //DATE & TIME display ------------------------------------------------------------------   
+         // currentTime = currentTime.startOf("hour"); DONE
+        var currentTime = moment();   
+        $('#currentTime').text(currentTime.format("MMM Do, YYYY, h:mm a"));
