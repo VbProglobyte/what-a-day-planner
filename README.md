@@ -15,10 +15,4 @@ I'd also like to credit Bootstrap & jQuery for helping developers make this "loo
 
 And I'd like to give credit to Andrew T, who helped me troubleshoot local storage issues!
 
-[screencapture-file-C-Users-Doug-Desktop-code-Homework-homework-SMU-day-planner-what-a-day-planner-index-html-2021-09-11-09_48_23](https://user-images.githubusercontent.com/83515305/132951766-95694208-9f25-4232-9831-9fcdda59e73b.png)
-
-
-
-![image](https://user-images.githubusercontent.com/83515305/133324333-3d26a492-b48d-4ebb-bb29-7a33e9ddff0a.png)
-
-
+![screencapture-vbproglobyte-github-io-what-a-day-planner-2021-09-14-14_55_31](https://user-images.githubusercontent.com/83515305/133325185-58fe2ae2-dc6a-4ff3-b9ee-7cf78bf495cd.png)
